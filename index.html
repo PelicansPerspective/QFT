@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelicans Perspective - Elevated Vantage for Radical Synthesis</title>
+    <meta name="description" content="Independent research group exploring the intersection of technology, philosophy, and consciousness. Led by Justin Bogner.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__container">
+            <div class="nav__brand">
+                <span class="nav__logo">PP</span>
+            </div>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#research" class="nav__link">Research</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#blog" class="nav__link">Blog</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav__toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <canvas class="hero__canvas" id="particles-canvas"></canvas>
+        <div class="hero__gradient"></div>
+        <div class="hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">Pelicans Perspective</h1>
+                <p class="hero__subtitle">Elevated vantage • Unconventional frameworks • Radical synthesis</p>
+                <p class="hero__description">
+                    A platform for enabling others to see beyond constraints—through elevated vantage, 
+                    unconventional frameworks, and radical synthesis of tech, philosophy, and consciousness.
+                </p>
+                <button class="hero__cta" data-scroll-to="research">
+                    Explore Research
+                    <span class="hero__cta-arrow">→</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about__content reveal">
+                <h2 class="section__title">Beyond Constraints</h2>
+                <p class="about__text">
+                    Pelicans Perspective embodies a playground where cognition meets cosmos, logic shakes hands with intuition, 
+                    and we dare to imagine an AGI-human future that's more than transactional—it's transcendental. 
+                    We explore the intersections of emerging technologies, consciousness studies, and philosophical inquiry 
+                    to chart new territories of understanding.
+                </p>
+                <p class="about__text">
+                    Through rigorous research and radical synthesis, we seek to expand the boundaries of what's possible 
+                    in the evolving relationship between human and artificial intelligence.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section class="section research" id="research">
+        <div class="container">
+            <h2 class="section__title reveal">Research</h2>
+            <div class="research__grid" id="research-grid">
+                <!-- Research cards will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="section blog" id="blog">
+        <div class="container">
+            <h2 class="section__title reveal">Blog</h2>
+            <div class="blog__content reveal">
+                <p class="blog__placeholder">
+                    <span class="flicker">Coming soon</span> — radical dispatches
+                </p>
+                <p class="blog__description">
+                    Insights, provocations, and discoveries from the frontier of consciousness and technology.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section__title reveal">Connect</h2>
+            <div class="contact__content reveal">
+                <p class="contact__text">
+                    Ready to explore beyond the conventional?
+                </p>
+                <div class="contact__links">
+                    <a href="mailto:justin@pelicansperspective.org" class="contact__link">
+                        <span class="contact__icon">✉</span>
+                        justin@pelicansperspective.org
+                    </a>
+                    <a href="https://github.com/pelicansperspective" target="_blank" class="contact__link">
+                        <span class="contact__icon">⚡</span>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">
+                © 2025 Pelicans Perspective • Lead Researcher: Justin Bogner
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
